@@ -1,6 +1,6 @@
 # Project Overview
 
-This is our final project for CS4020-1 23V Data Science course. We'll try to predict the match result of football matches in the English Premier League based on training machine learning model with 20-21,21-22 season data of premier league teams.  
+This is our final project for CS4020-1 23V Data Science course. We'll try to predict the match result of football matches in the English Premier League based on training machine learning model with 21-22,22-23 season data of premier league teams.  
 
 **Project Steps**
  
@@ -20,6 +20,7 @@ You can find the code for this project [here](https://github.com/Ferdous-Jahan/C
 
 File overview:
 
+* `match_stats_scrapping.ipynb` - a Jupyter notebook that scrapes data from [here](https://fbref.com/en/)
 * `match_prediction.ipynb` - a Jupyter notebook that makes predictions.
 
 # Local Setup
@@ -31,5 +32,7 @@ To follow this project, please install the following locally:
 * JupyerLab
 * Python 3.8+
 * Python packages
+    * BeautifulSoup
+    * requests
     * pandas
     * scikit-learn

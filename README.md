@@ -4,6 +4,7 @@ This is our final project for CS4020-1 23V Data Science course. We'll try to pre
 
 **Project Steps**
  
+* Data collection by scraping from two data sources mentioned below.
 * Data cleaning using pandas.
 * Make predictions about about match result using scikit-learn.
 * Measure error and improve our predictions.

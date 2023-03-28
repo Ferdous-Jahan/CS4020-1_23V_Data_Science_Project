@@ -21,8 +21,10 @@ You can find the code for this project [here](https://github.com/Ferdous-Jahan/C
 
 File overview:
 
-* `match_stats_scrapping.ipynb` - a Jupyter notebook that scrapes data from [fbref](https://fbref.com/en/) & [EPL official site](https://www.premierleague.com)
-* `match_prediction.ipynb` - a Jupyter notebook that makes predictions.
+* `scraping_player_list.ipynb` - a Jupyter notebook that scrapes data for first team players of each match from [EPL official site](https://www.premierleague.com)
+* `match_stats_scrapping.ipynb` - a Jupyter notebook that scrapes match stats data from [fbref](https://fbref.com/en/)
+* `merge_player_list_&_stats_per_match.ipynb` - a Jupyter notebook that merges data frames of previous two scrapped datasets.
+* `match_prediction.ipynb` - a Jupyter notebook that pre process dataset for training ML model, then trains ML model and then make predictions.
 
 # Local Setup
 

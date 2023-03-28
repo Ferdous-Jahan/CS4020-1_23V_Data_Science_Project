@@ -20,7 +20,7 @@ You can find the code for this project [here](https://github.com/Ferdous-Jahan/C
 
 File overview:
 
-* `match_stats_scrapping.ipynb` - a Jupyter notebook that scrapes data from [here](https://fbref.com/en/)
+* `match_stats_scrapping.ipynb` - a Jupyter notebook that scrapes data from [fbref](https://fbref.com/en/) & [EPL official site](https://www.premierleague.com)
 * `match_prediction.ipynb` - a Jupyter notebook that makes predictions.
 
 # Local Setup

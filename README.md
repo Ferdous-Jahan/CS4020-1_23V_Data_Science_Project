@@ -32,10 +32,20 @@ File overview:
 
 To follow this project, please install the following locally:
 
-* JupyerLab
+* Anaconda3
 * Python 3.8+
 * Python packages
-    * BeautifulSoup
+    * BeautifulSoup (built in Anaconda)
     * requests
-    * pandas
-    * scikit-learn
+    * pandas (built in Anaconda)
+    * scikit-learn (built in Anaconda)
+
+## Code Running guide
+
+* First open `scraping_player_list.ipynb` in Jupyter notebook. Run the code in first block with `for match_number in range(66342,66722):` in line 8 and comment out the next line. this will download dataset consisting first team players for each match of 2021-22 season [set the csv file name to 'player_list_per_match_2021-2022.csv']. Then run the code of first block again with `for match_number in range(74911,75189):` in line 9 and comment out line 8. This will download dataset consisting first team players for each match of 2022-23 season [set the csv file name to 'player_list_per_match_2022-2023.csv']. Then run the code in second block which will save a csv file merging the two datasets of those seasons.
+
+* Then open `match_stats_scraping.ipynb` in Jupyter notebook. Run the cells one by one. This will result in a csv file consisting match stats data of 2021-22 & 2022-23 seasons.
+
+* Then open `merge_player_list_&_stats_per_match.ipynb` in Jupyter notebook. Run the cells one by one. This will result in a csv file consisting merged data of players and match stats data of 2021-22 & 2022-23 seasons.
+
+* Then open `match_result_prediction.ipynb` in Jupyter notebook. Run the cells one by one. Data categorization, Model training, Prediction scores and results are there.
